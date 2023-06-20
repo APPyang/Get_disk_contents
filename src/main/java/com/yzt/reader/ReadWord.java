@@ -107,7 +107,7 @@ public class ReadWord{
     }
 
     public static void main(String[] args) throws IOException, InvalidFormatException {
-        String wordFilePath="D:\\1\\1.docx";
+        String wordFilePath="file\\to\\path";
 
         //获取以json格式读取的结果
         System.out.println(ReadWord.readWordToJson(wordFilePath));

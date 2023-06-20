@@ -165,7 +165,7 @@ public class ReadPdf{
     }
 
     public static void main(String[] args) throws IOException{
-        String pdfFilePath="D:\\1\\未命名1_加水印.pdf";
+        String pdfFilePath="file\\to\\path";
         //获取以json格式读取的结果
         System.out.println(ReadPdf.readPdfToJson(pdfFilePath));
         //获取以 DocumentData 对象形式读取的结果

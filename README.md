@@ -18,4 +18,4 @@
     ReadExcel类,readExcelToJson方法， 输出为json格式串：
         ReadExcel.readExcelToJson(filepath);
     ReadExcel类,readExcel方法，返回DocumentData 对象：
-        ReadExcel.readExcel(filePath);
+        ReadExcel.readExcel(filePath);# Get_disk_contents

@@ -144,7 +144,7 @@ public class ReadExcel {
     }
     // 调用函数
     public static void main(String[] args) throws IOException {
-        String excelFilePath = "D:\\1\\1.xlsx";
+        String excelFilePath = "file\\to\\path";
         //获取以json格式读取的结果
         System.out.println(ReadExcel.readExcelToJson(excelFilePath));
         //获取以 DocumentData 对象形式读取的结果
